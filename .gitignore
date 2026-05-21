@@ -1,0 +1,57 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+env/
+.env
+mp_env/
+isl_translator/mp_env/
+
+# ── Large model & data files (too big for GitHub) ─────────────────────────────
+isl_translator/rf_model.pkl
+isl_translator/landmark_data.npz
+isl_translator/action_model.h5
+isl_translator/isl_model.h5
+isl_translator/cnn_model.h5
+
+# ── Dataset images (large) ────────────────────────────────────────────────────
+Indian Sign Languge Images/
+Training/
+Testing/
+Validation/
+ISL_CSLRT_Corpus/
+
+# ── Node modules ──────────────────────────────────────────────────────────────
+node_modules/
+isl_translator/frontend/node_modules/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+isl_translator/frontend/dist/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.zip
+Letters/
+Part2.zip/
+ishaara_*.png
